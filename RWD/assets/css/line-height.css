@@ -1,0 +1,40 @@
+html {
+    font-size: 12px;
+}
+
+.container {
+    width: 400px;
+}
+
+.non-responsive {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 0.2;
+}
+
+.remExample {
+    background-color: beige;
+    font-size: 16px;
+    line-height: 1.5rem;
+    /* line-height will be 12 * 1.5 = 18px */
+}
+
+.emExample {
+    background-color: burlywood;
+    font-size: 16px;
+    line-height: 1.5em;
+    /* line-height will be 16 * 1.5 = 24px */
+}
+
+.percentage {
+    background-color: bisque;
+    font-size: 16px;
+    line-height: 150%;
+    /* line-height will be 16 * 1.5 = 24px */
+}
+
+.pixel {
+    background-color: beige;
+    font-size: 20px;
+    line-height: 12px;
+}

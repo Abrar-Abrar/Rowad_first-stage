@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* min-value, preferred-value, max-value */
+    font-size: clamp(0.3rem, 3vw, 2rem);
+    line-height: 1.5;
+    /* margin: clamp(0.3rem, 5vw, 5rem); */
+}
+
+#container {
+    background-color: yellow;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.profile {
+    border: 2px solid #000;
+}
+
+.info {
+    padding: 20px;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+}
+
+h1 {
+    font-size: 1.6em;
+}
+
+p {
+    font-size: 1em;
+}

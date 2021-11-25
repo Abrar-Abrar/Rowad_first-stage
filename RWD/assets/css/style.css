@@ -1,0 +1,66 @@
+* {
+    /* box-sizing: border-box; */
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    /* font-size: 100vw; */
+    /* display: initial;
+    border: 2px solid #000;
+    padding: 20px;
+    text-align: center; */
+    font-size: 2em;
+}
+
+p {
+    font-size: inherit;
+}
+
+button {
+    /* all: unset; */
+    background-color: revert;
+    padding: revert;
+    /* font-family: initial; */
+}
+
+
+/* span {
+    padding: 20px;
+    width: 100px;
+    background-color: rgb(69, 221, 221);
+    border: 2px solid red;
+} */
+
+
+/* p {
+    width: 200px;
+    border: 2px solid #555;
+    line-height: 1.2;
+    margin: 20px;
+    padding: 10px;
+}
+
+span {
+    margin: 0 20px;
+    padding: 0 20px;
+    width: 80px;
+    height: 50px;
+    background-color: lightblue;
+    border: 2px solid blue;
+} */
+
+
+/* .box {
+    border: 5px solid rebeccapurple;
+    background-color: lightgray;
+    padding: 40px;
+    margin: 40px;
+    width: 300px;
+    height: 150px;
+} */
+
+
+/* .alternate {
+    box-sizing: border-box;
+} */

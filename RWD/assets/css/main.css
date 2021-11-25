@@ -1,0 +1,129 @@
+/* ============ General Elements ============ */
+
+:root {
+    --main-clr: #cc4092;
+    --main-border-clr: #e9e6e6;
+    --gray-clr: #e1e6e6;
+    --main-pad: 15px;
+    --main-trans-duration: 0.50s;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none
+}
+
+ul {
+    list-style: none
+}
+
+html,
+body {
+    height: 100vh;
+    margin: 0;
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+/* ============ General Classes ============ */
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+header{
+    background-color: yellow;
+    padding: 20px;
+}
+aside{
+    background-color: green;
+}
+.content{
+    background-color: grey;
+}
+.pagination{
+    text-align: center;
+}
+footer{
+    background-color: rgb(78, 78, 78);
+    padding: 20px;
+}
+
+
+/* ========= Media Queries ========= */
+
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    html {
+        font-size: 12px;
+    }
+    /* aside{ 
+        display: none;
+        visibility: hidden;
+    } */
+
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) {
+    html {
+        font-size: 13px;
+    }
+
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {
+    html {
+        font-size: 14px;
+    }
+    .container {
+        max-width: 720px;
+    }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {
+    html {
+        font-size: 15px;
+    }
+    .container {
+        max-width: 940px;
+    }
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1200px) {
+    html {
+        font-size: 16px;
+    }
+    .container {
+        max-width: 1140px;
+    }
+}

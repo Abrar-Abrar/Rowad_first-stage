@@ -1,0 +1,57 @@
+body {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas: "h h h h h h h h h h c c" "c c c c c c c c c c c c" "f f f f f f f f f f f f";
+}
+
+header {
+    grid-area: h;
+}
+
+aside {
+    grid-area: a;
+}
+
+.content {
+    grid-area: c;
+}
+
+footer {
+    grid-area: f;
+}
+
+
+/* ========= Media Queries ========= */
+
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    body {
+        grid-template-areas: "h h h h h h h h h h h h" "a a c c c c c c c c c c" "a a p p p p p p p p p p" "f f f f f f f f f f f f";
+    }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) {
+    body {
+        grid-template-areas: "h h h h h h h h h h h h" "a a c c c c c c c c c c" "a a p p p p p p p p p p" "f f f f f f f f f f f f";
+    }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1200px) {}
